@@ -1,0 +1,132 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=1900, tid=7152
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_51-b13) (build )
+# Java VM: Java HotSpot(TM) Client VM (24.51-b03 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0205d800):  JavaThread "Unknown thread" [_thread_in_vm, id=7152, stack(0x00210000,0x00260000)]
+
+Stack: [0x00210000,0x00260000],  sp=0x0025f580,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x18e0f1]
+V  [jvm.dll+0x187e66]
+V  [jvm.dll+0x3586a]
+V  [jvm.dll+0x358f6]
+V  [jvm.dll+0x4400d]
+V  [jvm.dll+0x442be]
+V  [jvm.dll+0x9263a]
+V  [jvm.dll+0x929eb]
+V  [jvm.dll+0x13dc51]
+V  [jvm.dll+0x16076c]
+V  [jvm.dll+0xc8ebf]
+C  [javaw.exe+0x13ce]
+C  [javaw.exe+0x1e40]
+C  [javaw.exe+0xa5b1]
+C  [javaw.exe+0xa63b]
+C  [kernel32.dll+0x1338a]
+C  [ntdll.dll+0x39f72]
+C  [ntdll.dll+0x39f45]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0205d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=7152, stack(0x00210000,0x00260000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.658 loading class 0x01f1a0f0 done
+Event: 0.659 loading class 0x01f19b80 done
+Event: 0.659 loading class 0x01f19b60
+Event: 0.659 loading class 0x01f20e88
+Event: 0.659 loading class 0x01f20e88 done
+Event: 0.659 loading class 0x01f20eb8
+Event: 0.685 loading class 0x01f20eb8 done
+Event: 0.685 loading class 0x01f20ee8
+Event: 0.685 loading class 0x01f20ee8 done
+Event: 0.686 loading class 0x01f19b60 done
+
+
+Dynamic libraries:
+0x00080000 - 0x000af000 	C:\Program Files (x86)\Java\jre7\bin\javaw.exe
+0x77c30000 - 0x77db0000 	C:\Windows\SysWOW64\ntdll.dll
+0x76f20000 - 0x77030000 	C:\Windows\syswow64\kernel32.dll
+0x75800000 - 0x75847000 	C:\Windows\syswow64\KERNELBASE.dll
+0x76bc0000 - 0x76c60000 	C:\Windows\syswow64\ADVAPI32.dll
+0x774d0000 - 0x7757c000 	C:\Windows\syswow64\msvcrt.dll
+0x77630000 - 0x77649000 	C:\Windows\SysWOW64\sechost.dll
+0x77370000 - 0x77460000 	C:\Windows\syswow64\RPCRT4.dll
+0x75620000 - 0x75680000 	C:\Windows\syswow64\SspiCli.dll
+0x75610000 - 0x7561c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x759d0000 - 0x75ad0000 	C:\Windows\syswow64\USER32.dll
+0x75850000 - 0x758e0000 	C:\Windows\syswow64\GDI32.dll
+0x77650000 - 0x7765a000 	C:\Windows\syswow64\LPK.dll
+0x77590000 - 0x7762d000 	C:\Windows\syswow64\USP10.dll
+0x71850000 - 0x719ee000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x76810000 - 0x76867000 	C:\Windows\syswow64\SHLWAPI.dll
+0x75970000 - 0x759d0000 	C:\Windows\system32\IMM32.DLL
+0x76ac0000 - 0x76b8c000 	C:\Windows\syswow64\MSCTF.dll
+0x10000000 - 0x10008000 	C:\Windows\KATRACK.DLL
+0x62ad0000 - 0x62b8f000 	C:\Program Files (x86)\Java\jre7\bin\msvcr100.dll
+0x5b700000 - 0x5ba80000 	C:\Program Files (x86)\Java\jre7\bin\client\jvm.dll
+0x72ca0000 - 0x72ca7000 	C:\Windows\system32\WSOCK32.dll
+0x75ad0000 - 0x75b05000 	C:\Windows\syswow64\WS2_32.dll
+0x77460000 - 0x77466000 	C:\Windows\syswow64\NSI.dll
+0x72c30000 - 0x72c62000 	C:\Windows\system32\WINMM.dll
+0x75680000 - 0x75685000 	C:\Windows\syswow64\PSAPI.DLL
+0x71750000 - 0x7175c000 	C:\Program Files (x86)\Java\jre7\bin\verify.dll
+0x6c490000 - 0x6c4b0000 	C:\Program Files (x86)\Java\jre7\bin\java.dll
+0x6c330000 - 0x6c343000 	C:\Program Files (x86)\Java\jre7\bin\zip.dll
+0x70c90000 - 0x70d7b000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\student\AppData\Local\Android\android-sdk\platforms\android-19\android.jar 
+java_command: uhack.targetinstoreshopping.ApacheHttpRestClient1
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip
+USERNAME=student
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 4124220k(898700k free), swap 8246576k(2227784k free)
+
+vm_info: Java HotSpot(TM) Client VM (24.51-b03) for windows-x86 JRE (1.7.0_51-b13), built on Dec 18 2013 19:09:58 by "java_re" with unknown MS VC++:1600
+
+time: Sat Sep 27 09:32:14 2014
+elapsed time: 1 seconds
+

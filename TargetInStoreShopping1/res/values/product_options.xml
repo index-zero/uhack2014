@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="product_options">
+        <item>"More Details"</item>
+        <item>"Find Related"</item>
+        <item>"Change Quantity"</item>
+        <item>"Remove"</item>
+    </array>
+</resources>

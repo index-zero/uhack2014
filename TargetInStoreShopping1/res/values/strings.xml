@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TargetInStoreShopping1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Scan">Scan</string>
+    <string name="title_activity_intent_integrator">IntentIntegrator</string>
+    <string name="title_activity_find_related">FindRelatedActivity</string>
+    <string name="title_activity_custom_array_adapter2">CustomArrayAdapter2</string>
+    <string name="title_activity_past_receipt">PastReceiptActivity</string>
+    <string name="id_label">The ID is</string>
+    <string name="id_value">[id]</string>
+    <string name="content_label">The Content is</string>
+    <string name="content_value">[content]</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
